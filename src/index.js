@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Footer from './Assets/Components/Footer';
+import Lokalhistorien from './Assets/Pages/Lokalhistorien';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Lokalhistorien/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );

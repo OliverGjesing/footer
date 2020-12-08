@@ -1,0 +1,64 @@
+@font-face {
+    font-family: barlowBold;
+    src: url(../../Barlow-Bold.ttf);
+  }
+
+  @media only screen and (max-width: 1199px){
+footer{
+    border: 1px solid black;
+    height: 90px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: barlowBold;
+    .footerTekst{
+        text-decoration: none;
+        color: #2E338C;
+        display: block;
+        &:hover{
+            color: #8F92BF;
+        }
+    }
+    .fab{
+        color: #2E338C;
+        font-size: 60px;
+        &:hover{
+            color: #8F92BF;
+        }
+    }
+    .large{
+        display: none;
+    }
+}
+}
+
+@media only screen and (min-width: 1200px){
+    footer{
+        height: 100px;
+        font-family: barlowBold;
+        text-align: center;
+        border: 1px solid black;
+        
+    }
+    .footerTekst{
+        text-decoration: none;
+        color: #2E338C;
+        margin-right: 20px;
+        margin-left: 50%;
+        margin-top: 20px;
+        &:hover{
+            color: #8F92BF;
+            
+        }
+    }
+    .fab{
+        margin-top: 20px;
+        color: #2E338C;
+        font-size: 60px;
+        &:hover{
+            color: #8F92BF;
+        }
+    }
+    .small{
+        display: none;
+    }
+}
